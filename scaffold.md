@@ -12,13 +12,13 @@
 
 **yeoman版本**: v2.0.6
 
-**生成时间**: 2019-10-11 07:19:48
+**生成时间**: 2019-10-11 07:43:56
 
 **生成方式**: 命令模式
 
-**生成参数**: {"groupId":"com.deepexi","artifactId":"deepexi-dubbo","basePackage":"kiko-yuri","mavenUrl":"http://nexus.deepexi.top/repository/maven-public/","discovery":"zookeeper","converter":"mapstruct","db":"none","dbPool":"none","orm":"none","circuit":"none","mq":"none","webServer":"tomcat","demo":true,"mode":"command","cli":"yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage=kiko-yuri --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --discovery=zookeeper --converter=mapstruct --db=none --dbPool=none --orm=none --circuit=none --mq=none --webServer=tomcat --demo=true","version":"1.3.0","conditions":{"none":false,"mapstruct":true,"no-circuit":true,"has-converter":true},"basePath":"kiko-yuri","basic":true}
+**生成参数**: {"groupId":"com.deepexi","artifactId":"deepexi-dubbo","basePackage":"kiko-yuri","mavenUrl":"http://nexus.deepexi.top/repository/maven-public/","discovery":"zookeeper","converter":"spring-converter","db":"none","dbPool":"none","orm":"none","circuit":"none","mq":"none","webServer":"tomcat","demo":true,"mode":"command","cli":"yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage=kiko-yuri --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --discovery=zookeeper --converter=spring-converter --db=none --dbPool=none --orm=none --circuit=none --mq=none --webServer=tomcat --demo=true","version":"1.3.0","conditions":{"none":false,"spring-converter":true,"no-circuit":true,"has-converter":true},"basePath":"kiko-yuri","basic":true}
 
-**生成命令**: yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage=kiko-yuri --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --discovery=zookeeper --converter=mapstruct --db=none --dbPool=none --orm=none --circuit=none --mq=none --webServer=tomcat --demo=true
+**生成命令**: yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage=kiko-yuri --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --discovery=zookeeper --converter=spring-converter --db=none --dbPool=none --orm=none --circuit=none --mq=none --webServer=tomcat --demo=true
 
 ## 项目参考
 
