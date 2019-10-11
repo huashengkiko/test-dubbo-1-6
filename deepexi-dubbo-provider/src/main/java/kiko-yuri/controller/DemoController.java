@@ -13,9 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import javax.validation.Valid;
+import kiko-yuri.converter.DemoConverter;
 
-import static kiko-yuri.util.ConverterUtils.convert;
-import kiko-yuri.model.vo.OtherVO;
 
 @RestController
 @RequestMapping("demo")
@@ -25,17 +24,15 @@ public class DemoController {
     @Autowired
     private DemoService service;
     
-    
-    @GetMapping("default-convert")
-    public DemoVO defaultConvert() {
-        return convert(service.get(),DemoVO.class);
-    }
+    @Autowired
+    private DemoConverter convert;
 
-    @GetMapping("manual-convert")
-    public OtherVO manualConvert() {
-        return convert(service.get(),OtherVO.class);
+    @GetMapping("convert")
+    public DemoVO doConvert() {
+       return convert.dto2vo(service.get());
     }
             
+    
     @GetMapping("greeting")
     public String sayHello() {
         return service.sayHello();
